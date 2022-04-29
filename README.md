@@ -1,6 +1,9 @@
 # Inquiry Project
 Using YOLOv5 to Detect and Classify Blood Cells and Platelets
 
+# Dataset
+https://www.kaggle.com/datasets/draaslan/blood-cell-detection-dataset
+
 ## Requirements
 ### YOLOv5 - https://github.com/ultralytics/yolov5\
 ### Python >= 3.10.2
