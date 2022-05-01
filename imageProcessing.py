@@ -71,8 +71,8 @@ copyImages(allImagesDir, testDir, testing)
 copyImages(allImagesDir, trainDir, training)
 
 os.chdir("..")
-trainingImagesDir = os.path.join("data", trainDir, "images")
-testingImagesDir = os.path.join("data", testDir, "images")
+trainingImagesDir = os.path.join("../data", trainDir, "images")
+testingImagesDir = os.path.join("../data", testDir, "images")
 
 names = ", ".join([f"\"{i}\"" for i in cells])
 
