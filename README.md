@@ -56,4 +56,5 @@ python main.py
 ```
 ## Pre-trained weights
 On releases - yolov5x.pt
+
 Place in yolov5 folder
