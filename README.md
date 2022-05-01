@@ -11,6 +11,16 @@ https://www.kaggle.com/datasets/draaslan/blood-cell-detection-dataset
 ### Cuda capable GPU or CPU
 
 ## Setup
+Initial File Directory
+```
+.
+├── imageProcessing.py
+├── main.py
+└── data/
+    ├── images
+    └── annotations.csv
+```
+
 ```
 conda env create -f environment.yml
 conda activate pytorch
@@ -30,6 +40,7 @@ pip install -r requirements.txt
 cd yolov5
 bash data/scripts/download_weights.sh
 ```
+
 ## Training
 ```bash
 python train.py --data data/cellDetection.yaml --batch-size -1 --epochs 300 --img-size 640 --project runs/train --name cellDetection --weights yolov5x.pt --device 0
