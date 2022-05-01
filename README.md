@@ -39,6 +39,7 @@ python train.py --data data/cellDetection.yaml --batch-size -1 --epochs 300 --im
 python detect.py --weights runs/train/cellDetection/weights/best.pt --source ../data/images/IMAGENAMEHERE.png --name cellDetection --project runs/detect
 ```
 or
+(In parent directory)
 ```bash
 python main.py
 ```
