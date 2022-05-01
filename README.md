@@ -1,6 +1,8 @@
 # Inquiry Project
 Using YOLOv5 to Detect and Classify Blood Cells and Platelets
 
+Interactive website - https://share.streamlit.io/pogman96/bloodcelldetectionstreamlit/main/main.py
+
 # Dataset
 https://www.kaggle.com/datasets/draaslan/blood-cell-detection-dataset
 
@@ -28,13 +30,13 @@ conda activate pytorch
 ```
 
 ```bash
-python imageProcessing.py
-```
-
-```bash
 git clone https://github.com/ultralytics/yolov5
 cd yolov5
 pip install -r requirements.txt
+```
+
+```bash
+python imageProcessing.py
 ```
 
 ```bash
