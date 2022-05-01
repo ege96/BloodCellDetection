@@ -54,3 +54,5 @@ or
 ```bash
 python main.py
 ```
+## Pre-trained weights
+On releases, uses yolov5x.pt
