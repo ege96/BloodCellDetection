@@ -17,7 +17,8 @@ Initial File Directory
 ├── imageProcessing.py
 ├── main.py
 └── data/
-    ├── images
+    ├── images/
+    │   └── PLACE DATASET HERE
     └── annotations.csv
 ```
 
