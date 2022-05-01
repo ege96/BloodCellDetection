@@ -47,7 +47,7 @@ bash data/scripts/download_weights.sh
 ## Training
 ```bash
 cd yolov5
-python train.py --data data/cellDetection.yaml --batch-size -1 --epochs 300 --img-size 640 --project runs/train --name cellDetection --weights yolov5x.pt --device 0
+python train.py --data data/cellDetection.yaml --batch-size -4 --epochs 300 --img-size 640 --project runs/train --name cellDetection --weights yolov5x.pt --device 0
 ```
 ## Testing
 ```bash
