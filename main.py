@@ -61,8 +61,8 @@ while True:
 
             # getting image dimensions
             imgDimensions = cv2.imread(path).shape
-            W = imgDimensions[0]
-            H = imgDimensions[1]
+            W = imgDimensions[1]
+            H = imgDimensions[0]
 
             # applying trained model to image
             res = model(path)
