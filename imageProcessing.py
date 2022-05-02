@@ -39,8 +39,9 @@ allImgs = os.listdir("images")
 random.shuffle(allImgs)
 
 # spliting images into 2 parts
-training = allImgs[:80]
-testing = allImgs[80:]
+splitPoint = int(len(allImgs) * 0.75)
+training = allImgs[:splitPoint]
+testing = allImgs[splitPoint:]
 
 # reading annotations for labeling
 anno = pd.read_csv("annotations.csv")
