@@ -60,6 +60,6 @@ or
 python main.py
 ```
 ## Pre-trained weights
-On releases - yolov5x.pt
+On releases page
 
 Place in yolov5 folder
