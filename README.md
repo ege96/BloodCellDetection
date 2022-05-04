@@ -1,5 +1,5 @@
 # Inquiry Project
-Using YOLOv5 to Detect and Classify Blood Cells and Platelets
+Using YOLOv5 to Detect and Classify Blood Cells
 
 Interactive website - https://share.streamlit.io/pogman96/bloodcelldetectionstreamlit/main/main.py
 
