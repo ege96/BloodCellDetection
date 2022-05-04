@@ -62,4 +62,4 @@ python main.py
 ## Pre-trained weights
 On releases page
 
-Place in yolov5 folder
+Place in yolov5/runs/train/cellDetection/weights/ folder (rename to best.pt)
