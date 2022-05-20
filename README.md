@@ -1,5 +1,7 @@
 # Inquiry Project
-Using YOLOv5 to Detect and Classify Blood Cells
+
+### About
+This is a repository of the code used during a project where I explored the use of machine learning and computer vision to detect and classify blood cells. I did this by using the YOLOv5 framework, and deployed the model in an interactive website linked below.
 
 Interactive website - https://share.streamlit.io/pogman96/bloodcelldetectionstreamlit/main/main.py
 
